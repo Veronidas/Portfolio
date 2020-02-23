@@ -71,19 +71,11 @@ footer a:hover {
 	border-right-color: #fff;
 }.
 
-.list-group-item-mine a:hover {
-	background-color: red;
-}
-
-.iconLoli div{
+.iconLoli  {
 	width: 50px; 
 	height: 50px;
 	font-weight: 100;
 	font-size: 0.5rem;
-}
-
-#skills ul {
-	/* background-color: rgb(255, 249, 251); */
 }
 
 #skills ul{
