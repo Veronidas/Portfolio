@@ -1,6 +1,6 @@
 body {
 	font-family: "Nunito", sans-serif;
-	background-color: #6c3a60;
+	background-color: white;
 }
 
 .navbar.scrolled {
@@ -15,7 +15,7 @@ body {
 }
 
 .blurb {
-	color: #e7dee2;
+	color: #6c3a60;
 	font-weight: 100;
 	font-size: 1.125rem;
 }
@@ -32,21 +32,21 @@ body {
 }
 
 #mainNavbar .nav-link {
-	color: white;
+	color: #e9a7b8;
 }
 
 #mainNavbar .nav-link:hover {
-	color: #dc2554;
+	color: rgb(236, 16, 178);
 }
 
 #mainNavbar .navbar-brand {
-	color: #ffffff;
+	color: #e9a7b8;
 	font-size: 1.5rem;
 	font-weight: 400;
 }
 
 .headingGroup h2, h1{
-	color: white;
+	color: #6c3a60;
 	font-weight: 100;
 	font-size: 3rem;
 }
@@ -57,7 +57,7 @@ footer {
 }
 
 footer a {
-	color: #d33f7d;
+	color: #fcfcfc;
 }
 
 footer a:hover {
@@ -80,4 +80,12 @@ footer a:hover {
 	height: 50px;
 	font-weight: 100;
 	font-size: 0.5rem;
+}
+
+#skills ul {
+	/* background-color: rgb(255, 249, 251); */
+}
+
+#skills ul{
+	background:  rgb(255, 255, 255);
 }
