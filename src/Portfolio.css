@@ -85,3 +85,12 @@ footer a:hover {
 .picture {
 	box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.30);
 }
+
+li {
+    transition: all ease 500ms;
+}
+li:hover{
+    transform: scale(1.75);
+	opacity: 0.9;
+	color: purple;
+}
