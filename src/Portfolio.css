@@ -52,7 +52,7 @@ body {
 }
 
 footer {
-	background: rgba(87, 10, 117, 0.795);
+	background-color: rgba(87, 10, 117, 0.795);
 	color: #f1eaed;
 }
 
@@ -61,7 +61,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #f70067;
+	color: #fcfcfc;
 }
 
 .list-group-item-mine {
@@ -93,4 +93,18 @@ footer a:hover {
     transform: scale(1.75);
 	opacity: 0.9;
 	color: rgba(87, 10, 117, 0.795);
+}
+
+footer li{
+	transition: all ease 500ms;
+}
+footer li:hover{
+	transform: scale(1.75);
+	opacity: 0.9;
+	color: white;
+}
+
+hr {
+	background-color:rgba(211, 197, 197, 0.3);
+	width: 70%;
 }
