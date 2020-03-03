@@ -92,5 +92,5 @@ li {
 li:hover{
     transform: scale(1.75);
 	opacity: 0.9;
-	color: purple;
+	color: rgba(87, 10, 117, 0.795);
 }
