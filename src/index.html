@@ -42,22 +42,24 @@
 
 	<!-- HERO | ABOUT ME -->
 
-	<section id="aboutMe" class="container-fluid  px-0 m-5">
+	<section id="aboutMe" class="container-fluid  px-md-5 m-md-5">
 		<div class="row align-items-center blurb">
-			<div class="col-md-6 order-2 order-md-1">
-				<img class="img-fluid" src="../imgs/DSC03818.JPG" alt="" />
-			</div>
-			<div class="p-0 col-lg-6 my-0 px-5">
-				<h1 class="text-center">Verónika Brkich</h1>
-				<p class="lead text-justify">Desarrolladora web con pasión por la tecnología. Con experiencia
+			<div class="col-md-6">
+				<h1 class="text-center mt-5 p-5">Verónika Brkich</h1>
+				<p class="lead text-justify mt-1">Desarrolladora web con pasión por la tecnología. Con experiencia
 					en un
 					entorno que demanda cumplimiento de fechas de entrega, objetivos de calidad y producción he podido
 					cumplir con la demanda del mercado actual participando activamente en la optimización de procesos y
 					gestión de nuevas metodologías de trabajo.
 
-					Soy una persona curiosa y proactiva, siempre estoy buscando nuevas y mejores formas de expandir
-					mi conocimiento. En mi tiempo libre desarrollo proyectos creativos relacionados a los
-					videojuegos y productos audiovisuales. </p>
+					<span class="d-none d-md-inline"> una persona curiosa y proactiva, siempre estoy buscando nuevas y
+						mejores formas de expandir
+						mi conocimiento. En mi tiempo libre desarrollo proyectos creativos relacionados a los
+						videojuegos y productos audiovisuales.</span>
+				</p>
+			</div>
+			<div class="col-lg-6 mt-5">
+				<img class="img-fluid" src="../imgs/DSC03818.JPG" alt="" />
 			</div>
 		</div>
 	</section>
@@ -66,18 +68,19 @@
 	<!--WORKS -->
 
 	<!-- FIRST ROW -->
-	<section id="works" class="container-fluid px-5">
-		<div class="pt-5">
+	<section id="works" class="container-fluid pt-5">
+		<div>
 			<h1 class="headingGroup text-center pt-5">PROYECTOS</h1>
 		</div>
 		<div class="row align-items-center content">
-			<div class="col-md-6 order-2 order-md-1">
-				<img class="img-fluid picture" src="../imgs/burguer.jfif" alt="" />
+			<div class="col-md-6">
+				<hr class="d-block d-md-none">
+				<br>
+				<img class="img-fluid picture" src="../imgs/burguer.jfif" alt="burguer" />
 			</div>
-			<div class="col-md-6 text-center order-1 order-md-2">
+			<div class="col-md-6 text-center">
 				<div class="row justify-content-center">
-					<div class="blurb col-10 col-lg-8 mb-5 mb-md-0">
-						<hr class="d-block d-md-none">
+					<div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
 						<h2>Burguer Queen</h2>
 						<div class="iconLoli">
 							<img src="../imgs/rrss.png" alt="" class="d-none d-lg-inline" style="width: 50px;" />
@@ -100,10 +103,9 @@
 
 		<!-- SECOND ROW -->
 		<div class="row align-items-center content">
-			<div class="col-md-6 text-center">
+			<div class="col-md-6 text-center order-2 order-md-1">
 				<div class="row justify-content-center">
 					<div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-						<hr class="d-block d-md-none">
 						<h2>Data lovers: Hatchimon </h2>
 						<div class="iconLoli">
 							<img src="../imgs/pokeball.png" alt="" class="d-none d-lg-inline" style="width: 50px;" />
@@ -120,13 +122,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 order-1 order-md-2">
+				<hr class="d-block d-md-none">
+				<br>
 				<img class="img-fluid picture" src="../imgs/pokemon-go-android-ios_313214_pn2.png" alt="" />
 			</div>
 		</div>
 
 		<!-- THIRD ROW -->
-		<div class="row align-items-center content">
+		<!-- <div class="row align-items-center content">
 			<div class="col-md-6 order-2 order-md-1">
 				<img class="img-fluid picture" src="../imgs/caesar-cipher.png" alt="" />
 			</div>
@@ -149,7 +153,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</section>
 
 	<!-- SKILLS -->
@@ -157,19 +161,22 @@
 	<section id="skills" class="container-fluid px-0 py-5 my-5">
 		<div>
 			<h1 class="text-center headingGroup my-5 py-5">SKILLS</h1>
-			<div class="skillsHover text-center">
-				<ul class="list-group list-group-item-mine list-group-horizontal border-0 py-5">
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-js fa-4x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-css3-alt fa-4x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-html5 fa-4x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-bootstrap fa-4x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-git-alt fa-4x"></i></li>
+			<div class="skillsHover">
+				<ul
+					class="list-group list-group-item-mine list-group-horizontal border-0 py-5 d-flex justify-content-around">
+					<li class="list-group-item border-0"><i class="fab fa-js fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-css3-alt fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-html5 fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-git-alt fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-yarn fa-4x"></i></li>
 				</ul>
-				<ul class="list-group list-group-item-mine list-group-horizontal border-0 py-5">
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-github fa-3x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-node fa-3x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-node-js fa-3x"></i></li>
-					<li class="list-group-item flex-fill border-0"><i class="fab fa-react fa-3x"></i></li>
+				<ul
+					class="list-group list-group-item-mine list-group-horizontal border-0 py-5 d-flex justify-content-around">
+					<li class="list-group-item border-0"><i class="fab fa-github fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-node fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-node-js fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-react fa-4x"></i></li>
+					<li class="list-group-item border-0"><i class="fab fa-bootstrap fa-4x"></i></li>
 				</ul>
 			</div>
 		</div>
@@ -179,7 +186,7 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<footer id="contact" class="py-5 px-0">
+	<footer id="contact" class=" col-md-12 py-5 px-0">
 		<div class="text-center my-0">
 			<h3>CONTACT</h3>
 			<hr>

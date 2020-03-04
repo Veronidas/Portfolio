@@ -54,6 +54,8 @@ body {
 footer {
 	background-color: rgba(87, 10, 117, 0.795);
 	color: #f1eaed;
+	width:100%;
+	margin:0;
 }
 
 footer a {
@@ -107,4 +109,8 @@ footer li:hover{
 hr {
 	background-color:rgba(211, 197, 197, 0.3);
 	width: 70%;	
+}
+
+footer{
+	width: 100%;
 }
